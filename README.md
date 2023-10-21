@@ -1,7 +1,15 @@
 # SwiftDataDragAndDropExample
 
+*** NOTE: This project has evolved into a more complete solution for implementing drag and drop functionality with SwiftData `PersistentModel` objects in a SwiftUI App.
+A new Swift Package to do this can be found at: [https://github.com/Whiffer/swiftdata-transferrable](url).
+The package implements generic extensions to the `.draggable()` and `.dropDestination()` SwiftUI View modifiers to faclilitate direct Drag and Drop operations with SwiftData `PersistentModel` objects.
 
-This project is an example of how to implement drag and drop functionality with SwiftData `PersistentModel` objects in a SwiftUI App. The primary issue that makes this difficult is that SwiftData `PersistentModel` objects are not `Codable` and they are not `Transferable`.
+
+A complete project that demonstrates how to use the package is available at: [https://github.com/Whiffer/SampleSwiftDataTransferrable](url)
+
+==================================================================================
+
+This project is one example of how to implement drag and drop functionality with SwiftData `PersistentModel` objects in a SwiftUI App. The primary issue that makes this difficult is that SwiftData `PersistentModel` objects are not `Codable` and they are not `Transferable`.
 
 This solution takes a slightly different approach by not trying to drag and drop the `PersistentModel` objects themselves, but instead, dragging and dropping the `PersistentIdentifier` struct from a `PersistentModel` object.  This works well because `PersistentIdentifier` is already `Codable` and it is very easy to make it `Transferable`.  Also, a `PersistentIdentifier` struct can be used to retrieve its corresponding `PersistentModel` object from the `ModelContext`.
 
