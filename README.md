@@ -1,11 +1,11 @@
 # SwiftDataDragAndDropExample
 
 *** NOTE: This project has evolved into a more complete solution for implementing drag and drop functionality with SwiftData `PersistentModel` objects in a SwiftUI App.
-A new Swift Package to do this can be found at: [https://github.com/Whiffer/swiftdata-transferrable](url).
+A new Swift Package to do this can be found at: [https://github.com/Whiffer/swiftdata-transferrable](https://github.com/Whiffer/swiftdata-transferrable).
 The package implements generic extensions to the `.draggable()` and `.dropDestination()` SwiftUI View modifiers to faclilitate direct Drag and Drop operations with SwiftData `PersistentModel` objects.
 
 
-A complete project that demonstrates how to use the package is available at: [https://github.com/Whiffer/SampleSwiftDataTransferrable](url)
+A complete project that demonstrates how to use the package is available at: [https://github.com/Whiffer/SampleSwiftDataTransferrable](https://github.com/Whiffer/SampleSwiftDataTransferrable)
 
 ==================================================================================
 
